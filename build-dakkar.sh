@@ -59,7 +59,7 @@ ROM types:
   pixel90
   potato-pie
   rebellion-pie
-  rr-oreo
+  rr
   slim-oreo
   graphene9
   graphene10
@@ -164,10 +164,10 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="false"
                 ;;
-            rr-oreo)
+            rr)
                 mainrepo="https://github.com/ResurrectionRemix/platform_manifest.git"
-                mainbranch="oreo"
-                localManifestBranch="android-8.1"
+                mainbranch="Q"
+                localManifestBranch="android-10.0"
                 treble_generate="rr"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"
